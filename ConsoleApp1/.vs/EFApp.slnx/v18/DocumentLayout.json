@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|c:\\users\\t-sshohdy\\learning dotnet\\consoleapp1\\consoleapp1\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|solutionrelative:consoleapp1\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|c:\\users\\t-sshohdy\\learning dotnet\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|c:\\users\\t-sshohdy\\learning dotnet\\consoleapp1\\consoleapp1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|solutionrelative:consoleapp1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|c:\\users\\t-sshohdy\\learning dotnet\\consoleapp1\\consoleapp1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|solutionrelative:consoleapp1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|c:\\users\\t-sshohdy\\learning dotnet\\consoleapp1\\consoleapp1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFBF38-5314-A3A9-7D2A-BBD65B3B47E0}|ConsoleApp1\\EFApp.csproj|solutionrelative:consoleapp1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\ApplicationDBContext.cs",
+              "RelativeToolTip": "ConsoleApp1\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAkwGEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:09:55.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Order.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:09:45.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Category.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Category.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:02:57.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Models\\Product.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:03:08.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\t-sshohdy\\Learning dotnet\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAACIBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:02:28.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
