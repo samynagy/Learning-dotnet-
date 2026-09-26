@@ -85,5 +85,16 @@ namespace MoviesApi.Controllers
             _context.SaveChanges();
             return Ok(movie);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
+        {
+            var movie = await _context.Movies.FindAsync(id);
+            if (movie == null)
+                return NotFound();
+             _context.Movies.Remove(movie);
+            _context.SaveChanges();
+            return Ok(movie);
+        }
     }
 }
