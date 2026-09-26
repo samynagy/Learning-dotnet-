@@ -21,9 +21,14 @@ namespace MoviesApi.Controllers
             _context = context;
 
         }
+        [HttpGet]
+        public async Task<IActionResult> GetAllMovies()
+        {
+            var movies = await _context.Movies.Include(m=>m.Genre).ToListAsync();
+            return Ok(movies);
+        }
 
         [HttpPost]
-
         public async Task<IActionResult> CreateAsync([FromForm]MovieDto dto)
         {
 
