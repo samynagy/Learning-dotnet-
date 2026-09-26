@@ -29,7 +29,7 @@ namespace MoviesApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetMovieById(int id)
+        public async Task<IActionResult> GetMovieByIdAsync(int id)
         {
             var movie = await _context
                             .Movies
@@ -40,6 +40,15 @@ namespace MoviesApi.Controllers
                 return NotFound();
             }
             return Ok(movie);
+        }
+        [HttpGet("GetByGenreId")]
+        public async Task<IActionResult> GetByGenreIdAsync(byte Genreid)
+        {
+            var movies = await _context.Movies
+                .Where(m => m.GenreId == Genreid)
+                .Include(m => m.Genre)
+                .ToListAsync();
+            return Ok(movies);
         }
         [HttpPost]
         public async Task<IActionResult> CreateAsync([FromForm]MovieDto dto)
