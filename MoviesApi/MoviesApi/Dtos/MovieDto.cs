@@ -12,7 +12,7 @@ namespace MoviesApi.Dtos
         public decimal Rate { get; set; }
         [MaxLength(500)]
         public string Storyline { get; set; }
-        public IFormFile Poster { get; set; }
+        public IFormFile? Poster { get; set; }
 
 
         public byte GenreId { get; set; }
