@@ -28,6 +28,19 @@ namespace MoviesApi.Controllers
             return Ok(movies);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetMovieById(int id)
+        {
+            var movie = await _context
+                            .Movies
+                            .Include(m=>m.Genre).
+                            SingleOrDefaultAsync(m => m.Id == id);
+            if(movie == null)
+            {
+                return NotFound();
+            }
+            return Ok(movie);
+        }
         [HttpPost]
         public async Task<IActionResult> CreateAsync([FromForm]MovieDto dto)
         {
