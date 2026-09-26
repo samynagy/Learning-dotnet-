@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MoviesApi.Dtos;
 using MoviesApi.Models;
 
 namespace MoviesApi.Controllers
@@ -22,5 +23,17 @@ namespace MoviesApi.Controllers
             return Ok(genres);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> CreateAsync(CreateGenreDto dto)
+        {
+            var genre = new Genre
+            {
+                Name = dto.Name
+            };
+            await _context.Genres.AddAsync(genre);
+            _context.SaveChanges();
+
+            return Ok(genre);
+        }
     }
 }
