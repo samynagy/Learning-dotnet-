@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Database ERD</title>
+<style>
+  body { font-family: sans-serif; background: #ffffff; padding: 20px; }
+  #erd { overflow-x: auto; }
+</style>
+</head>
+<body>
+<div id="erd"></div>
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+const src = `erDiagram
+  CUSTOMERS ||--o{ ORDERS : places
+  CUSTOMERS ||--|| CUSTOMERPROFILES : has
+  ORDERS ||--o{ ORDERITEMS : contains
+  PRODUCTS ||--o{ ORDERITEMS : "ordered in"
+  CATEGORIES ||--o{ PRODUCTS : has
+
+  CUSTOMERS {
+    int Id PK
+    string Name
+    string Email
+  }
+  ORDERS {
+    int Id PK
+    int CustomerId FK
+    date OrderDate
+  }
+  ORDERITEMS {
+    int OrderId PK
+    int ProductId PK
+    int Quantity
+    decimal UnitPrice
+  }
+  PRODUCTS {
+    int Id PK
+    string Name
+    decimal Price
+    int CategoryId FK
+  }
+  CATEGORIES {
+    int Id PK
+    string Name
+  }
+  CUSTOMERPROFILES {
+    int CustomerId PK
+    date BirthDate
+    string Phone
+  }
+`;
+
+const { svg } = await mermaid.render('erd-svg', src);
+document.getElementById('erd').innerHTML = svg;
+</script>
+</body>
+</html>
